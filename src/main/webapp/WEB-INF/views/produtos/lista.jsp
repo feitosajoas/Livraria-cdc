@@ -1,13 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<!-- JSTL -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> <!-- JSTL -->
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Livro de Java, Android, iPhone, RUby, PHP e muito mais -
-	Casa do Código</title>
+	Casa do CÃ³digo</title>
 </head>
 <body>
 
@@ -15,9 +15,9 @@
 	<!--Tabela com as colunas do produto  -->
 	<table>
 		<tr>
-			<td>Título</td>
-			<td>Descrição</td>
-			<td>Páginas</td>
+			<td>TÃ­tulo</td>
+			<td>DescriÃ§Ã£o</td>
+			<td>PÃ¡ginas</td>
 		</tr>
 		<!-- Produto -->
 		<c:forEach items="${produtos }" var="produto">
