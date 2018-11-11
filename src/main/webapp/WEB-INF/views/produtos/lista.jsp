@@ -1,18 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> <!-- JSTL -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!-- JSTL -->
 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Livro de Java, Android, iPhone, RUby, PHP e muito mais -
-	Casa do Código</title>
+<title>Livro de Java, Android, iPhone, RUby, PHP e muito mais - Casa do Código</title>
 </head>
 <body>
 
 	<h1>Lista de Produtos</h1>
 	<!--Tabela com as colunas do produto  -->
+	
+	<div>${sucesso }</div>
+	
 	<table>
 		<tr>
 			<td>Título</td>
